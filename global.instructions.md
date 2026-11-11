@@ -44,6 +44,9 @@ __pycache__/
 debian/
 *.deb
 *.ddeb
+build/
+log/
+install/
 ```
 
 ## ROS Interface Design
