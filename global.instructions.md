@@ -27,6 +27,8 @@ applyTo: "**"
 
 ```gitignore
 .vscode/
+.pytest_cache/
+__pycache__/
 .tmp/
 *.png
 *.pcd
