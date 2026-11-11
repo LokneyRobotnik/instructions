@@ -7,8 +7,8 @@ applyTo: "**"
 # ROS 2 Package Development Guidelines
 
 ## Git Usage
-
-Understood. I’ve recorded your preference: I’ll use Git only for read-only status, recent commit names, or comparisons with commits. I won’t issue commands that write to the repository.
+- Use Git only for read-only inspection, such as checking working-tree status, recent commit names, or changes compared with commits.
+- Never run Git commands that modify the repository or its state, including add, commit, stash, checkout, reset, push, pull, fetch, or branch/worktree changes.
 
 ## Package Structure
 
