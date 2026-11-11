@@ -15,6 +15,7 @@ Understood. I’ve recorded your preference: I’ll use Git only for read-only s
 - For every C++ node, use exactly two `.cpp` files and one header: a node entry-point file containing `main()`, a separate implementation file containing the node behavior, and a declaration-only header containing the class declarations and members.
 - Keep `main()` focused on initialization, node startup, and executor spinning. Keep ROS interface setup, parameters, callbacks, and runtime behavior in the implementation `.cpp` file.
 - Provide a corresponding YAML parameter file for each node and load it from that node's launch file. Apply launch arguments only as explicit overrides to the YAML defaults.
+- Whenever a ROS 2 launch file needs to be created, write it in Python format (`.launch.py`), not XML.
 - Keep tests with the package. Update its README when adding or changing public parameters, interfaces, launch behavior, or workflows.
 - Declare runtime and build dependencies in the package manifest and build configuration. Do not rely on dependencies being present transitively.
 
